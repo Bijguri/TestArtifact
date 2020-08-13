@@ -1,3 +1,4 @@
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
@@ -22,7 +23,7 @@ public class LoginTest {
 	@Test
 	public void testCase() {
 		System.out.println("In Test Case");
-		
+		driver.findElement(By.id("a"));
 
 	}
 
